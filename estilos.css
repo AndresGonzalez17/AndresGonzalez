@@ -9,12 +9,26 @@ header {
     text-align: center;
     font-size: 30px;
     color: beige;
+    height: 80px;
+}
+div .encabezado {
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
 }
 h1 .estudio {
     font-family: fantasy #111;
     text-align: center;
     width: max-content;
 }
+span .forseti {
+    height: 75px;
+}
+main {
+    width: 100%;
+    height: 400px;
+}
+
 footer .pie {
     background-color: maroon;
     padding: 10px;
@@ -26,13 +40,16 @@ footer .pie-puntos {
 }
 main .columna1 {
     position: absolute;
-    top: 150px;
-    left: 0px;
+    height: 200px;
+    top: 175px;
+    padding-left: 15px;
     width: 200px;
     margin-top: 10px;
-    background-color: gainsboro;
+    background-color: rgb(63, 55, 55);
 }
+
 main .columna2 {
+    height: 400px;
     margin-left: 220px;
     margin-right: 20px;
     margin-top: 10px;
